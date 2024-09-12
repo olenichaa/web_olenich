@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Handjet';
+    font-style: normal;
+    font-weight: 300;
+    src: url("styles/Handjet-Regular.ttf");
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #0050f0;
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 0;
+    padding-bottom: 10px;
+}
+p{
+    font-family: 'Handjet';
+    font-size: 1.25rem;
+    color: wheat;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+h2{
+    font-family: 'Handjet';
+    font-size: 1.25rem;
+    color: wheat;
+    margin: 0;
+    margin-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ul, li{
+    font-family: 'Handjet';
+    font-size: 1.25rem;
+    color: wheat;
+    margin: 0;
+    padding: 0;
+}
+table, th, td{
+    margin-left: 3px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-family: 'Handjet';
+    font-size: 1.25rem;
+    border: 1px solid wheat;
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+}
+footer{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: aliceblue;
+    background-color: black;
+}
+p.telephone a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Handjet';
+    font-size: 1.25rem;
+}
+nav a{
+    color:#00ff70;
+    text-decoration: none;
+    font-family: 'Handjet';
+    font-size: 1.25rem;
+}
+nav a:hover{
+    color: orange;
+}
+p.telephone a:hover{
+    color: red;
+}
